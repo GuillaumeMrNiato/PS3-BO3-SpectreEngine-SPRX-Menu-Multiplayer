@@ -1,0 +1,106 @@
+﻿Build started 31/07/2017 12:12:52.
+     1>Project "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\BlackOps3ZombieMenuNoHost.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         stdafx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_Menu -DSTUBNAME=cellPrx_Menu_stub -o PS3_Debug\stdafx.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti --create_pch="PS3_Debug\Menu.pch" "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\stdafx.cpp"
+         "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\stdafx.cpp": creating precompiled header file "PS3_Debug\Menu.pch"
+         prx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_Menu -DSTUBNAME=cellPrx_Menu_stub -o PS3_Debug\prx.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti --use_pch="PS3_Debug\Menu.pch" "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp"
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\Lib.h(88,20): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(363): warning 942: missing return statement at end of non-void function "hookStub"
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(386,25): warning 175: expression has no effect
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(407): warning 942: missing return statement at end of non-void function "changeSubmenu"
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(420,23): warning 175: expression has no effect
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(432,6): warning 178: variable "buf" was declared but never referenced
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(477,3): warning 112: statement is unreachable
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(477,9): warning 118: non-void function "GetName" should return a value
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(510,2): warning 942: missing return statement at end of non-void function "ForceHost"
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1172,4): warning 548: transfer of control bypasses initialization of:
+                     variable "Prestige1" (declared at line 1175)
+                     variable "Prestige2" (declared at line 1179)
+                     variable "Prestige3" (declared at line 1183)
+                     variable "Prestige4" (declared at line 1187)
+                     variable "Prestige5" (declared at line 1191)
+                     variable "Prestige6" (declared at line 1195)
+                     variable "Prestige7" (declared at line 1199)
+                     variable "Prestige8" (declared at line 1203)
+                     variable "Prestige9" (declared at line 1207)
+                     variable "Prestige10" (declared at line 1211)
+                     variable "Prestige11" (declared at line 1215)
+                     variable "Level55" (declared at line 1219)
+                     variable "UnlockClass" (declared at line 1223)
+                     variable "Score" (declared at line 1227)
+                     variable "Kills" (declared at line 1228)
+                     variable "Tokens" (declared at line 1229)
+                     variable "Wins" (declared at line 1230)
+                     variable "Deaths" (declared at line 1231)
+                     variable "Loses" (declared at line 1232)
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1519,77): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1522,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1523,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1524,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1525,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1526,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1527,78): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1530,79): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1551,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1554,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1557,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1560,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1563,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1566,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1585,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1588,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1591,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1594,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1609,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1612,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1615,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1618,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1621,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1624,49): warning 69: integer conversion resulted in truncation
+         
+     1>F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\prx.cpp(1967,117): warning 69: integer conversion resulted in truncation
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\PS3_Debug\Menu.sprx" -LC:/usr/local/cell\target\ppu\lib\libhttp_stub.a -LC:/usr/local/cell\target\ppu\lib\libhttp_util_stub.a -LC:/usr/local/cell\target\ppu\lib\libnet_stub.a -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" --start-group PS3_Debug\prx.o PS3_Debug\stdafx.o C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsysmodule_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libgcm_sys_stub.a "C:/usr/local/cell\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a" C:/usr/local/cell\target\ppu\lib\libhttp_stub.a C:/usr/local/cell\target\ppu\lib\libhttp_util_stub.a C:/usr/local/cell\target\ppu\lib\libnet_stub.a libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         BlackOps3ZombieMenuNoHost.vcxproj -> F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\PS3_Debug\Menu.sprx
+         Moving Stub Library cellPrx_Menu_stub.a -> F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\PS3_Debug\
+     1>Done Building Project "F:\Visual Studio\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\Black Ops 3 SpectreEngine\BlackOps3ZombieMenuNoHost\BlackOps3ZombieMenuNoHost.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.65
